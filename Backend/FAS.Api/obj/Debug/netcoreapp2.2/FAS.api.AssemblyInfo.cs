@@ -7,10 +7,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("FAS.Api")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("FAS.api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("FAS.Api")]
-[assembly: System.Reflection.AssemblyTitleAttribute("FAS.Api")]
+[assembly: System.Reflection.AssemblyProductAttribute("FAS.api")]
+[assembly: System.Reflection.AssemblyTitleAttribute("FAS.api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

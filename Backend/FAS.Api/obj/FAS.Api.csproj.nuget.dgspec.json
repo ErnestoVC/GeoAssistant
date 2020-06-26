@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Api\\FAS.Api.csproj": {}
+    "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Api\\FAS.api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Api\\FAS.Api.csproj": {
+    "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Api\\FAS.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Api\\FAS.Api.csproj",
-        "projectName": "FAS.Api",
-        "projectPath": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Api\\FAS.Api.csproj",
+        "projectUniqueName": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Api\\FAS.api.csproj",
+        "projectName": "FAS.api",
+        "projectPath": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Api\\FAS.api.csproj",
         "packagesPath": "C:\\Users\\netit\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Api\\obj\\",
         "projectStyle": "PackageReference",
@@ -17,14 +17,12 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\netit\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\netit\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -87,14 +85,12 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\netit\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\netit\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -111,6 +107,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "CoreCompat.System.ComponentModel.DataAnnotations": {
+              "target": "Package",
+              "version": "[4.2.3-r7, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -139,14 +139,12 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\netit\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\netit\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -199,14 +197,12 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\netit\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\netit\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

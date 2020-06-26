@@ -8,6 +8,6 @@ namespace FAS.Repository
          bool Update (T e);
          bool Delete(int id);
          IEnumerable<T> GetAll();
-         T GetT(int id);
+         T Get(int id);
     }
 }

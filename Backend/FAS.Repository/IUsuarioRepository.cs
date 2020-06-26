@@ -3,7 +3,7 @@ using FAS.Entity;
  
 namespace FAS.Repository
 {
-    public interface IUsuarioRepository : IRepository<Usuario>
+    public interface IUsuarioRepository : IRepository<Usuarios>
     {
          
     }
