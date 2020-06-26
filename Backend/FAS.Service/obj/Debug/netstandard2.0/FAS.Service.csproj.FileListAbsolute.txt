@@ -1,0 +1,14 @@
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Service\bin\Debug\netstandard2.0\FAS.Service.deps.json
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Service\bin\Debug\netstandard2.0\FAS.Service.dll
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Service\bin\Debug\netstandard2.0\FAS.Service.pdb
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Service\bin\Debug\netstandard2.0\FAS.Entity.dll
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Service\bin\Debug\netstandard2.0\FAS.Repository.dll
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Service\bin\Debug\netstandard2.0\FAS.Repository.pdb
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Service\bin\Debug\netstandard2.0\FAS.Entity.pdb
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Service\obj\Debug\netstandard2.0\FAS.Service.csprojAssemblyReference.cache
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Service\obj\Debug\netstandard2.0\FAS.Service.csproj.CoreCompileInputs.cache
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Service\obj\Debug\netstandard2.0\FAS.Service.AssemblyInfoInputs.cache
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Service\obj\Debug\netstandard2.0\FAS.Service.AssemblyInfo.cs
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Service\obj\Debug\netstandard2.0\FAS.Service.csproj.CopyComplete
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Service\obj\Debug\netstandard2.0\FAS.Service.dll
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Service\obj\Debug\netstandard2.0\FAS.Service.pdb
