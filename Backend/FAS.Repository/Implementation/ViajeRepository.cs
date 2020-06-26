@@ -58,15 +58,44 @@ namespace FAS.Repository.Implementation
             .Where(d=>d.IdViaje == viajeId)
             .ToList();
             
-            return detalle.Select(d=> new DetalleViajeViewModel {
-                ViajeId = d.IdViaje,
-                nroViaje = d.nro
+            return detalle.Select(c=> new DetalleViajeViewModel {
+                ViajeId = c.IdViaje,
+                AsistenciaId = c.IdAsistencia,
+                Fecha = c.Asistencia.fecha,
+                posX = c.Asistencia.posX,
+                posY = c.Asistencia.posY
             });
         }
 
         public bool Save(Viaje e)
         {
-            throw new System.NotImplementedException();
+            Viaje viaje = new Viaje{
+                nroViaje = e.nroViaje,
+                fechaviaje = e.fechaviaje,
+                TipoCarga = e.TipoCarga,
+                IdConductor = e.IdConductor,
+                IdVehiculo = e.IdVehiculo                
+            };
+
+            try
+            {
+                context.Viajes.Add(viaje);
+                context.SaveChanges();
+                var viajeid = viaje.Id;
+                foreach(var item in e.DetalleViaje){
+                    DetalleViaje detalle = new DetalleViaje{
+                        IdViaje = viajeid,
+                        IdAsistencia = item.IdAsistencia                        
+                    };
+                    context.DetalleViajes.Add(detalle);
+                }
+            }
+            catch (System.Exception)
+            {
+                
+                return false;
+            }
+            return true;
         }
 
         public bool Update(Viaje e)
