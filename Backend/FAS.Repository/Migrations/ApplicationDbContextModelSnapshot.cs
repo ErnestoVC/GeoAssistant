@@ -130,7 +130,7 @@ namespace FAS.Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Modelo");
+                    b.ToTable("Modelos");
                 });
 
             modelBuilder.Entity("FAS.Entity.Trabajador", b =>
@@ -157,7 +157,7 @@ namespace FAS.Repository.Migrations
 
                     b.HasIndex("UsuarioId");
 
-                    b.ToTable("Trbajadores");
+                    b.ToTable("Trabajadores");
                 });
 
             modelBuilder.Entity("FAS.Entity.Usuarios", b =>
@@ -195,7 +195,7 @@ namespace FAS.Repository.Migrations
 
                     b.HasIndex("ModeloId");
 
-                    b.ToTable("Vehiculo");
+                    b.ToTable("Vehiculos");
                 });
 
             modelBuilder.Entity("FAS.Entity.Viaje", b =>
@@ -224,7 +224,7 @@ namespace FAS.Repository.Migrations
 
                     b.HasIndex("VehiculoId");
 
-                    b.ToTable("Viaje");
+                    b.ToTable("Viajes");
                 });
 
             modelBuilder.Entity("FAS.Entity.Brevete", b =>

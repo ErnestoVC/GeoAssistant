@@ -29,10 +29,38 @@ namespace FAS.Repository.Implementation
             return true;
         }
         public bool Update (Brevete e){
-            throw new System.NotImplementedException();
+            try
+            {
+                var origen = context.Brevetes.Single(x=>x.Id == e.Id);
+                origen.Id = e.Id;
+                origen.numero = e.numero;
+                origen.fechaExpi = e.fechaExpi;
+                origen.IdcatBrevete = e.IdcatBrevete;
+
+                context.Update(origen);
+                context.SaveChanges();
+            }
+            catch (System.Exception)
+            {
+                
+                return false;
+            }
+            return true;
         }
         public bool Delete(int id){
-            throw new System.NotImplementedException();
+            try
+            {
+                var result = new Brevete();
+                result = context.Brevetes.Single(x=>x.Id == id);
+                context.Remove(result);
+                context.SaveChanges();
+            }
+            catch (System.Exception)
+            {
+                
+                return false;
+            }
+            return true;            
         }
         public IEnumerable<Brevete> GetAll(){
             var result = new List<Brevete>();

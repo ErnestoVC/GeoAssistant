@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "FAS.api/1.0.0": {
+      "FAS.Api/1.0.0": {
         "dependencies": {
           "FAS.Entity": "1.0.0",
           "FAS.Service": "1.0.0",
@@ -31,10 +31,10 @@
           "Microsoft.NETCore.App": "2.2.0"
         },
         "runtime": {
-          "FAS.api.dll": {}
+          "FAS.Api.dll": {}
         },
         "compile": {
-          "FAS.api.dll": {}
+          "FAS.Api.dll": {}
         }
       },
       "CoreCompat.System.ComponentModel.Attributes/4.2.3-rg": {
@@ -3390,7 +3390,7 @@
     }
   },
   "libraries": {
-    "FAS.api/1.0.0": {
+    "FAS.Api/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

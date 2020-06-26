@@ -7,6 +7,6 @@ namespace FAS.Repository
     public interface IViajeRepository : IRepository<Viaje>
     {
          IEnumerable<ViajeViewModel> GetAllViajes();
-         IEnumerable<DetalleViajeViewModel> ListarDetalles();
+         IEnumerable<DetalleViajeViewModel> ListarDetalles(int viajeId);
     }
 }

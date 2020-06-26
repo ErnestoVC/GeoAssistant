@@ -6,6 +6,7 @@ namespace FAS.Repository.viewModel
     {
         public int Id {get;set;}
         public int ViajeId {get;set;}
+        public string nroViaje {get;set;}
         public int AsistenciaId {get;set;}
         public DateTime Fecha {get;set;}
         public double posX {get;set;}
