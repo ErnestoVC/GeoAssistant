@@ -14,7 +14,7 @@ namespace FAS.Repository.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    fecha = table.Column<int>(nullable: false),
+                    fecha = table.Column<DateTime>(nullable: false),
                     posX = table.Column<double>(nullable: false),
                     posY = table.Column<double>(nullable: false)
                 },
@@ -34,6 +34,21 @@ namespace FAS.Repository.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_CatBrevetes", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Modelo",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    modelo = table.Column<string>(nullable: true),
+                    cargamax = table.Column<string>(nullable: true),
+                    nrollantas = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Modelo", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -68,6 +83,29 @@ namespace FAS.Repository.Migrations
                         name: "FK_Brevetes_CatBrevetes_CatBreveteId",
                         column: x => x.CatBreveteId,
                         principalTable: "CatBrevetes",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Vehiculo",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    placa = table.Column<string>(nullable: true),
+                    nromotor = table.Column<string>(nullable: true),
+                    estadomotor = table.Column<bool>(nullable: false),
+                    IdModelo = table.Column<int>(nullable: false),
+                    ModeloId = table.Column<int>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Vehiculo", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Vehiculo_Modelo_ModeloId",
+                        column: x => x.ModeloId,
+                        principalTable: "Modelo",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -135,7 +173,9 @@ namespace FAS.Repository.Migrations
                     fechaviaje = table.Column<DateTime>(nullable: false),
                     TipoCarga = table.Column<string>(nullable: true),
                     IdConductor = table.Column<int>(nullable: false),
-                    ConductorId = table.Column<int>(nullable: true)
+                    ConductorId = table.Column<int>(nullable: true),
+                    IdVehiculo = table.Column<int>(nullable: false),
+                    VehiculoId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -144,6 +184,12 @@ namespace FAS.Repository.Migrations
                         name: "FK_Viaje_Conductores_ConductorId",
                         column: x => x.ConductorId,
                         principalTable: "Conductores",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_Viaje_Vehiculo_VehiculoId",
+                        column: x => x.VehiculoId,
+                        principalTable: "Vehiculo",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -207,9 +253,19 @@ namespace FAS.Repository.Migrations
                 column: "UsuarioId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Vehiculo_ModeloId",
+                table: "Vehiculo",
+                column: "ModeloId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Viaje_ConductorId",
                 table: "Viaje",
                 column: "ConductorId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Viaje_VehiculoId",
+                table: "Viaje",
+                column: "VehiculoId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -227,10 +283,16 @@ namespace FAS.Repository.Migrations
                 name: "Conductores");
 
             migrationBuilder.DropTable(
+                name: "Vehiculo");
+
+            migrationBuilder.DropTable(
                 name: "Brevetes");
 
             migrationBuilder.DropTable(
                 name: "Trbajadores");
+
+            migrationBuilder.DropTable(
+                name: "Modelo");
 
             migrationBuilder.DropTable(
                 name: "CatBrevetes");

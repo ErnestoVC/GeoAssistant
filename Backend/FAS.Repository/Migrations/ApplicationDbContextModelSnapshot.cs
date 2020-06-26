@@ -25,7 +25,7 @@ namespace FAS.Repository.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("fecha");
+                    b.Property<DateTime>("fecha");
 
                     b.Property<double>("posX");
 
