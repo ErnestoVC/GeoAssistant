@@ -10,7 +10,7 @@ namespace FAS.Api.Controllers
     {
         private IUsuarioService conSer;
 
-        protected UsuarioController(IUsuarioService conSer)
+        public UsuarioController(IUsuarioService conSer)
         {
             this.conSer=conSer;
         }

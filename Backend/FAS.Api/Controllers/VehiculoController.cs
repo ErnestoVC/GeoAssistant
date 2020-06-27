@@ -4,11 +4,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FAS.Api.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class VehiculoController : ControllerBase
     {
         private IVehiculoService conSer;
 
-        protected VehiculoController(IVehiculoService conSer)
+        public VehiculoController(IVehiculoService conSer)
         {
             this.conSer=conSer;
         }

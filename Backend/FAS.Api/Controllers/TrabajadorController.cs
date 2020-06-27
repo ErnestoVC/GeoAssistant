@@ -4,11 +4,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FAS.Api.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class TrabajadorController : ControllerBase
     {
         private ITrabajadorService conSer;
 
-        protected TrabajadorController(ITrabajadorService conSer)
+        public TrabajadorController(ITrabajadorService conSer)
         {
             this.conSer=conSer;
         }

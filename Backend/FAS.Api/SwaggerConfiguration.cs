@@ -17,9 +17,9 @@ namespace FAS.Api
         public const string DocNameV1 = "v1";
 
         
-        public const string DocInfoTitle = "LimaRooms API";
+        public const string DocInfoTitle = "Asistencia API";
 
         public const string DocInfoVersion = "v1";
-        public const string DocInfoDescription = "LimaRooms Api";
+        public const string DocInfoDescription = "Asistencia Api";
     }
 }

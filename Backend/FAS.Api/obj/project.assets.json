@@ -12614,11 +12614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Api\\FAS.api.csproj",
+      "projectUniqueName": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Api\\FAS.api.csproj",
       "projectName": "FAS.api",
-      "projectPath": "c:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Api\\FAS.api.csproj",
+      "projectPath": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Api\\FAS.api.csproj",
       "packagesPath": "C:\\Users\\netit\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Api\\obj\\",
+      "outputPath": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12635,11 +12635,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "c:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Entity\\FAS.Entity.csproj": {
-              "projectPath": "c:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Entity\\FAS.Entity.csproj"
+            "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Entity\\FAS.Entity.csproj": {
+              "projectPath": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Entity\\FAS.Entity.csproj"
             },
-            "c:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Service\\FAS.Service.csproj": {
-              "projectPath": "c:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Service\\FAS.Service.csproj"
+            "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Service\\FAS.Service.csproj": {
+              "projectPath": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Service\\FAS.Service.csproj"
             }
           }
         }

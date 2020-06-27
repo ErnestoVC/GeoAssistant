@@ -4,11 +4,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FAS.Api.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class CatBreveteController : ControllerBase
     {
         private ICatBreveteService conSer;
 
-        protected CatBreveteController(ICatBreveteService conSer)
+        public CatBreveteController(ICatBreveteService conSer)
         {
             this.conSer=conSer;
         }

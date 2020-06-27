@@ -3931,11 +3931,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Service\\FAS.Service.csproj",
+      "projectUniqueName": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Service\\FAS.Service.csproj",
       "projectName": "FAS.Service",
-      "projectPath": "c:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Service\\FAS.Service.csproj",
+      "projectPath": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Service\\FAS.Service.csproj",
       "packagesPath": "C:\\Users\\netit\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Service\\obj\\",
+      "outputPath": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3952,11 +3952,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "c:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Entity\\FAS.Entity.csproj": {
-              "projectPath": "c:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Entity\\FAS.Entity.csproj"
+            "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Entity\\FAS.Entity.csproj": {
+              "projectPath": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Entity\\FAS.Entity.csproj"
             },
-            "c:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Repository\\FAS.Repository.csproj": {
-              "projectPath": "c:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Repository\\FAS.Repository.csproj"
+            "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Repository\\FAS.Repository.csproj": {
+              "projectPath": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Repository\\FAS.Repository.csproj"
             }
           }
         }
