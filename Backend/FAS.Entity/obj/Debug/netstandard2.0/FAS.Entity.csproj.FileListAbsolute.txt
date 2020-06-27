@@ -10,9 +10,9 @@ E:\Juan_Jose_Material\API-FAS\TF-FAS\FundaFinal\Backend\FAS.Entity\obj\Debug\net
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Entity\bin\Debug\netstandard2.0\FAS.Entity.deps.json
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Entity\bin\Debug\netstandard2.0\FAS.Entity.dll
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Entity\bin\Debug\netstandard2.0\FAS.Entity.pdb
-C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Entity\obj\Debug\netstandard2.0\FAS.Entity.csprojAssemblyReference.cache
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Entity\obj\Debug\netstandard2.0\FAS.Entity.csproj.CoreCompileInputs.cache
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Entity\obj\Debug\netstandard2.0\FAS.Entity.AssemblyInfoInputs.cache
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Entity\obj\Debug\netstandard2.0\FAS.Entity.AssemblyInfo.cs
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Entity\obj\Debug\netstandard2.0\FAS.Entity.dll
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Entity\obj\Debug\netstandard2.0\FAS.Entity.pdb
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Entity\obj\Debug\netstandard2.0\FAS.Entity.csprojAssemblyReference.cache

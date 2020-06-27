@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FAS.Repository.Implementation
 {
-    public class BreveteRepository : IRepository<Brevete>
+    public class BreveteRepository : IBreveteRepository
     {
         private ApplicationDbContext context;
 
