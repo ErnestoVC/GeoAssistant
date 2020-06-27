@@ -1,0 +1,19 @@
+{
+  "FilePath": "e:\\Juan_Jose_Material\\API-FAS\\TF-FAS\\FundaFinal\\Backend\\FAS.Api\\FAS.api.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": "FAS.api",
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}

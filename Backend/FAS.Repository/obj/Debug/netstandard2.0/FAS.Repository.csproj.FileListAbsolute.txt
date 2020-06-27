@@ -10,3 +10,15 @@ C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Repository\bin\Debug\nets
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.csproj.CopyComplete
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.dll
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.pdb
+E:\Juan_Jose_Material\API-FAS\TF-FAS\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.csprojAssemblyReference.cache
+E:\Juan_Jose_Material\API-FAS\TF-FAS\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.csproj.CoreCompileInputs.cache
+E:\Juan_Jose_Material\API-FAS\TF-FAS\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.AssemblyInfoInputs.cache
+E:\Juan_Jose_Material\API-FAS\TF-FAS\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.AssemblyInfo.cs
+E:\Juan_Jose_Material\API-FAS\TF-FAS\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.dll
+E:\Juan_Jose_Material\API-FAS\TF-FAS\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.pdb
+E:\Juan_Jose_Material\API-FAS\TF-FAS\FundaFinal\Backend\FAS.Repository\bin\Debug\netstandard2.0\FAS.Repository.deps.json
+E:\Juan_Jose_Material\API-FAS\TF-FAS\FundaFinal\Backend\FAS.Repository\bin\Debug\netstandard2.0\FAS.Repository.dll
+E:\Juan_Jose_Material\API-FAS\TF-FAS\FundaFinal\Backend\FAS.Repository\bin\Debug\netstandard2.0\FAS.Repository.pdb
+E:\Juan_Jose_Material\API-FAS\TF-FAS\FundaFinal\Backend\FAS.Repository\bin\Debug\netstandard2.0\FAS.Entity.dll
+E:\Juan_Jose_Material\API-FAS\TF-FAS\FundaFinal\Backend\FAS.Repository\bin\Debug\netstandard2.0\FAS.Entity.pdb
+E:\Juan_Jose_Material\API-FAS\TF-FAS\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.csproj.CopyComplete

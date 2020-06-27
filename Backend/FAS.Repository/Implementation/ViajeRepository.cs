@@ -57,10 +57,13 @@ namespace FAS.Repository.Implementation
             .Include(m=>m.Asistencia)
             .Where(d=>d.IdViaje == viajeId)
             .ToList();
-            
-            return detalle.Select(d=> new DetalleViajeViewModel {
-                ViajeId = d.IdViaje,
-                nroViaje = d.nro
+
+            return detalle.Select(c=> new DetalleViajeViewModel {
+                ViajeId = c.IdViaje,
+                AsistenciaId = c.IdAsistencia,
+                Fecha = c.Asistencia.fecha,
+                posX = c.Asistencia.posX,
+                posY = c.Asistencia.posY
             });
         }
 

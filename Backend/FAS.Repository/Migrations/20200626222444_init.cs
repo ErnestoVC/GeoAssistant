@@ -37,7 +37,7 @@ namespace FAS.Repository.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Modelo",
+                name: "Modelos",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -48,7 +48,7 @@ namespace FAS.Repository.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Modelo", x => x.Id);
+                    table.PrimaryKey("PK_Modelos", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -88,7 +88,7 @@ namespace FAS.Repository.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Vehiculo",
+                name: "Vehiculos",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -101,17 +101,17 @@ namespace FAS.Repository.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Vehiculo", x => x.Id);
+                    table.PrimaryKey("PK_Vehiculos", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Vehiculo_Modelo_ModeloId",
+                        name: "FK_Vehiculos_Modelos_ModeloId",
                         column: x => x.ModeloId,
-                        principalTable: "Modelo",
+                        principalTable: "Modelos",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Trbajadores",
+                name: "Trabajadores",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -126,9 +126,9 @@ namespace FAS.Repository.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Trbajadores", x => x.Id);
+                    table.PrimaryKey("PK_Trabajadores", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Trbajadores_Usuarios_UsuarioId",
+                        name: "FK_Trabajadores_Usuarios_UsuarioId",
                         column: x => x.UsuarioId,
                         principalTable: "Usuarios",
                         principalColumn: "Id",
@@ -156,15 +156,15 @@ namespace FAS.Repository.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Conductores_Trbajadores_TrabajadorId",
+                        name: "FK_Conductores_Trabajadores_TrabajadorId",
                         column: x => x.TrabajadorId,
-                        principalTable: "Trbajadores",
+                        principalTable: "Trabajadores",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Viaje",
+                name: "Viajes",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -179,17 +179,17 @@ namespace FAS.Repository.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Viaje", x => x.Id);
+                    table.PrimaryKey("PK_Viajes", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Viaje_Conductores_ConductorId",
+                        name: "FK_Viajes_Conductores_ConductorId",
                         column: x => x.ConductorId,
                         principalTable: "Conductores",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Viaje_Vehiculo_VehiculoId",
+                        name: "FK_Viajes_Vehiculos_VehiculoId",
                         column: x => x.VehiculoId,
-                        principalTable: "Vehiculo",
+                        principalTable: "Vehiculos",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -215,9 +215,9 @@ namespace FAS.Repository.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_DetalleViajes_Viaje_ViajeId",
+                        name: "FK_DetalleViajes_Viajes_ViajeId",
                         column: x => x.ViajeId,
-                        principalTable: "Viaje",
+                        principalTable: "Viajes",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -248,23 +248,23 @@ namespace FAS.Repository.Migrations
                 column: "ViajeId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Trbajadores_UsuarioId",
-                table: "Trbajadores",
+                name: "IX_Trabajadores_UsuarioId",
+                table: "Trabajadores",
                 column: "UsuarioId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Vehiculo_ModeloId",
-                table: "Vehiculo",
+                name: "IX_Vehiculos_ModeloId",
+                table: "Vehiculos",
                 column: "ModeloId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Viaje_ConductorId",
-                table: "Viaje",
+                name: "IX_Viajes_ConductorId",
+                table: "Viajes",
                 column: "ConductorId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Viaje_VehiculoId",
-                table: "Viaje",
+                name: "IX_Viajes_VehiculoId",
+                table: "Viajes",
                 column: "VehiculoId");
         }
 
@@ -277,22 +277,22 @@ namespace FAS.Repository.Migrations
                 name: "Asistencias");
 
             migrationBuilder.DropTable(
-                name: "Viaje");
+                name: "Viajes");
 
             migrationBuilder.DropTable(
                 name: "Conductores");
 
             migrationBuilder.DropTable(
-                name: "Vehiculo");
+                name: "Vehiculos");
 
             migrationBuilder.DropTable(
                 name: "Brevetes");
 
             migrationBuilder.DropTable(
-                name: "Trbajadores");
+                name: "Trabajadores");
 
             migrationBuilder.DropTable(
-                name: "Modelo");
+                name: "Modelos");
 
             migrationBuilder.DropTable(
                 name: "CatBrevetes");
