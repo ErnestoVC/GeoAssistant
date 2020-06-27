@@ -4,14 +4,15 @@ using System.Linq;
 using FAS.Entity;
 using FAS.Repository.Context;
 using Microsoft.EntityFrameworkCore;
+using FAS.Repository;
 
 namespace  FAS.Service.Implementacion
 {
     public class BreveteService : IBreveteService
     {
-        private IBreveteRespository  clRepos;
+        private IBreveteRepository  clRepos;
         
-        public BreveteService(IBreveteRespository clRepos)
+        public BreveteService(IBreveteRepository clRepos)
         {
             this.clRepos=clRepos;
         }

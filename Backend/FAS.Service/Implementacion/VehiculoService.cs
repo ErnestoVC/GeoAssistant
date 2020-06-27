@@ -4,40 +4,47 @@ using System.Linq;
 using FAS.Entity;
 using FAS.Repository.Context;
 using Microsoft.EntityFrameworkCore;
+using FAS.Repository;
 
 namespace  FAS.Service.Implementacion
 {
     public class VehiculoServivce : IVehiculoService
     {
-        private IVehiculoRespository  clRepos;
+        private IVehiculoRepository  clRepos;
         
-        public BreveteService(IVehiculoRespository clRepos)
+        public VehiculoServivce(IVehiculoRepository clRepos)
         {
             this.clRepos=clRepos;
-        }
-
-        public bool Save(Vehiculo e)
-        {
-            return clRepos.Save(e);
-        }
-        public bool Update(Vehiculo e)
-        {
-            return clRepos.Update(e);
         }
 
         public bool Delete(int id)
         {
             return clRepos.Delete(id);
         }
-         
+
+        public IEnumerable fetchVehiculobyPlaca(string placa)
+        {
+            return clRepos.fetchVehiculobyPlaca(placa);
+        }
+
+        public Vehiculo Get(int id)
+        {
+            return clRepos.Get(id);
+        }
+
         public IEnumerable<Vehiculo> GetAll()
         {
             return clRepos.GetAll();
         }
-         
-        public Vehiculo Get(int id)
+
+        public bool Save(Vehiculo e)
         {
-            return clRepos.Get(id);
+            return clRepos.Save(e);
+        }
+
+        public bool Update(Vehiculo e)
+        {
+            return clRepos.Update(e);
         }
     }
 }

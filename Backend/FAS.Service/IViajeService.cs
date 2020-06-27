@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using FAS.Entity;
-using FAS.Service.viewModel;
+using FAS.Repository.viewModel;
+
  
 namespace FAS.Service
 {

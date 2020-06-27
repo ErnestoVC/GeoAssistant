@@ -4,40 +4,42 @@ using System.Linq;
 using FAS.Entity;
 using FAS.Repository.Context;
 using Microsoft.EntityFrameworkCore;
+using FAS.Repository;
 
 namespace  FAS.Service.Implementacion
 {
     public class UsuarioServivce : IUsuarioService
     {
-        private IUsuarioRespository  clRepos;
+        private IUsuarioRepository  clRepos;
         
-        public BreveteService(IUsuarioRespository clRepos)
+        public UsuarioServivce(IUsuarioRepository clRepos)
         {
             this.clRepos=clRepos;
-        }
-
-        public bool Save(Usuario e)
-        {
-            return clRepos.Save(e);
-        }
-        public bool Update(Usuario e)
-        {
-            return clRepos.Update(e);
         }
 
         public bool Delete(int id)
         {
             return clRepos.Delete(id);
         }
-         
-        public IEnumerable<Usuario> GetAll()
+
+        public Usuarios Get(int id)
+        {
+            return clRepos.Get(id);
+        }
+
+        public IEnumerable<Usuarios> GetAll()
         {
             return clRepos.GetAll();
         }
-         
-        public Usuario Get(int id)
+
+        public bool Save(Usuarios e)
         {
-            return clRepos.Get(id);
+            return clRepos.Save(e);
+        }
+
+        public bool Update(Usuarios e)
+        {
+            return clRepos.Update(e);
         }
     }
 }

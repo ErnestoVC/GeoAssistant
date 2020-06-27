@@ -3925,40 +3925,38 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {},
+    "C:\\Users\\netit\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Juan_Jose_Material\\API-FAS\\TF-FAS\\FundaFinal\\Backend\\FAS.Service\\FAS.Service.csproj",
+      "projectUniqueName": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Service\\FAS.Service.csproj",
       "projectName": "FAS.Service",
-      "projectPath": "E:\\Juan_Jose_Material\\API-FAS\\TF-FAS\\FundaFinal\\Backend\\FAS.Service\\FAS.Service.csproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "E:\\Juan_Jose_Material\\API-FAS\\TF-FAS\\FundaFinal\\Backend\\FAS.Service\\obj\\",
+      "projectPath": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Service\\FAS.Service.csproj",
+      "packagesPath": "C:\\Users\\netit\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\netit\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "E:\\Juan_Jose_Material\\API-FAS\\TF-FAS\\FundaFinal\\Backend\\FAS.Entity\\FAS.Entity.csproj": {
-              "projectPath": "E:\\Juan_Jose_Material\\API-FAS\\TF-FAS\\FundaFinal\\Backend\\FAS.Entity\\FAS.Entity.csproj"
+            "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Entity\\FAS.Entity.csproj": {
+              "projectPath": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Entity\\FAS.Entity.csproj"
             },
-            "E:\\Juan_Jose_Material\\API-FAS\\TF-FAS\\FundaFinal\\Backend\\FAS.Repository\\FAS.Repository.csproj": {
-              "projectPath": "E:\\Juan_Jose_Material\\API-FAS\\TF-FAS\\FundaFinal\\Backend\\FAS.Repository\\FAS.Repository.csproj"
+            "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Repository\\FAS.Repository.csproj": {
+              "projectPath": "C:\\Users\\netit\\Documents\\GitHub\\FundaFinal\\Backend\\FAS.Repository\\FAS.Repository.csproj"
             }
           }
         }
