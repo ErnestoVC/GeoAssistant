@@ -27,6 +27,8 @@ namespace FAS.Repository.Migrations
 
                     b.Property<DateTime>("fecha");
 
+                    b.Property<double>("horas");
+
                     b.Property<double>("posX");
 
                     b.Property<double>("posY");
@@ -211,6 +213,8 @@ namespace FAS.Repository.Migrations
                     b.Property<int>("IdVehiculo");
 
                     b.Property<string>("TipoCarga");
+
+                    b.Property<double>("Totalhoras");
 
                     b.Property<int?>("VehiculoId");
 

@@ -19,6 +19,9 @@ E:\Juan_Jose_Material\API-FAS\TF-FAS\FundaFinal\Backend\FAS.Api\obj\Debug\netcor
 E:\Juan_Jose_Material\API-FAS\TF-FAS\FundaFinal\Backend\FAS.Api\obj\Debug\netcoreapp2.2\FAS.api.AssemblyInfo.cs
 E:\Juan_Jose_Material\API-FAS\TF-FAS\FundaFinal\Backend\FAS.Api\obj\Debug\netcoreapp2.2\FAS.api.RazorTargetAssemblyInfo.cache
 E:\Juan_Jose_Material\API-FAS\TF-FAS\FundaFinal\Backend\FAS.Api\obj\Debug\netcoreapp2.2\FAS.api.csproj.CopyComplete
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\bin\Debug\netcoreapp2.2\FAS.api.deps.json
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\bin\Debug\netcoreapp2.2\FAS.api.runtimeconfig.json
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\bin\Debug\netcoreapp2.2\FAS.api.runtimeconfig.dev.json
@@ -31,12 +34,13 @@ C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\bin\Debug\netcoreapp2
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\bin\Debug\netcoreapp2.2\FAS.Service.pdb
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\bin\Debug\netcoreapp2.2\FAS.Repository.pdb
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\obj\Debug\netcoreapp2.2\FAS.api.csprojAssemblyReference.cache
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\obj\Debug\netcoreapp2.2\FAS.api.AssemblyInfoInputs.cache
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\obj\Debug\netcoreapp2.2\FAS.api.AssemblyInfo.cs
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\obj\Debug\netcoreapp2.2\FAS.api.csproj.CoreCompileInputs.cache
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\obj\Debug\netcoreapp2.2\FAS.api.RazorAssemblyInfo.cache
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\obj\Debug\netcoreapp2.2\FAS.api.RazorAssemblyInfo.cs
-C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\obj\Debug\netcoreapp2.2\FAS.api.AssemblyInfoInputs.cache
-C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\obj\Debug\netcoreapp2.2\FAS.api.AssemblyInfo.cs
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\obj\Debug\netcoreapp2.2\FAS.api.RazorTargetAssemblyInfo.cache
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\obj\Debug\netcoreapp2.2\FAS.api.csproj.CopyComplete
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\obj\Debug\netcoreapp2.2\FAS.api.dll
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\obj\Debug\netcoreapp2.2\FAS.api.pdb
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Api\obj\Debug\netcoreapp2.2\FAS.api.genruntimeconfig.cache

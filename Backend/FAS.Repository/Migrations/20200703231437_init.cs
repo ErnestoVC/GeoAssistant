@@ -16,7 +16,8 @@ namespace FAS.Repository.Migrations
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     fecha = table.Column<DateTime>(nullable: false),
                     posX = table.Column<double>(nullable: false),
-                    posY = table.Column<double>(nullable: false)
+                    posY = table.Column<double>(nullable: false),
+                    horas = table.Column<double>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -170,6 +171,7 @@ namespace FAS.Repository.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     nroViaje = table.Column<int>(nullable: false),
+                    Totalhoras = table.Column<double>(nullable: false),
                     fechaviaje = table.Column<DateTime>(nullable: false),
                     TipoCarga = table.Column<string>(nullable: true),
                     IdConductor = table.Column<int>(nullable: false),

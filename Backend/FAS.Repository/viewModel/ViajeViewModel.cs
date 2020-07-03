@@ -7,6 +7,7 @@ namespace FAS.Repository.viewModel
     {
         public int Id {get;set;}
         public int nroViaje {get;set;}
+        public double totalhoras {get;set;}
         public DateTime fechaviaje {get;set;}
         public string TipoCarga {get;set;}
         public int ConductorId {get;set;}

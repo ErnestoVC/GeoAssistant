@@ -5,6 +5,6 @@ namespace FAS.Service
 {
     public interface IUsuarioService : IService<Usuarios>
     {
-         
+        IEnumerable fetchUsuariobyUsername(string username);
     }
 }

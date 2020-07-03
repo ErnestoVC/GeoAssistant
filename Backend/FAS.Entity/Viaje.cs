@@ -7,6 +7,7 @@ namespace FAS.Entity
     {
         public int Id {get;set;}
         public int nroViaje {get;set;}
+        public double Totalhoras {get;set;}
         public DateTime fechaviaje {get;set;}
         public string TipoCarga {get;set;}
         public int IdConductor {get;set;}

@@ -11,6 +11,7 @@ namespace FAS.Repository.viewModel
         public DateTime Fecha {get;set;}
         public double posX {get;set;}
         public double posY {get;set;}
+        public double horas {get;set;}
         
     }
 }

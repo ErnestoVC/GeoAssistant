@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "8ae5987f8013822b0397dc97d5c67154c0b2af15"
+    "signature": ""
   },
   "compilationOptions": {
     "defines": [
@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP2_2"
     ],
-    "languageVersion": "",
+    "languageVersion": "7.3",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "FAS.api/1.0.0": {
+      "FAS.Api/1.0.0": {
         "dependencies": {
           "FAS.Entity": "1.0.0",
           "FAS.Service": "1.0.0",
@@ -32,10 +32,10 @@
           "Swashbuckle.AspNetCore": "4.0.1"
         },
         "runtime": {
-          "FAS.api.dll": {}
+          "FAS.Api.dll": {}
         },
         "compile": {
-          "FAS.api.dll": {}
+          "FAS.Api.dll": {}
         }
       },
       "CoreCompat.System.ComponentModel.Attributes/4.2.3-rg": {
@@ -3456,7 +3456,7 @@
     }
   },
   "libraries": {
-    "FAS.api/1.0.0": {
+    "FAS.Api/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

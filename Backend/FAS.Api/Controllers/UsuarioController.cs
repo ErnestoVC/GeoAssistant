@@ -22,6 +22,13 @@ namespace FAS.Api.Controllers
             );
         }
 
+        [HttpGet("{username}")]
+        public ActionResult fetchUsuariobyUsername([FromRoute] string username){
+            return Ok(
+                conSer.fetchUsuariobyUsername(username)
+            );
+        }
+
         [HttpGet("{id}")]
         public ActionResult Get([FromRoute] int id){
             return Ok(

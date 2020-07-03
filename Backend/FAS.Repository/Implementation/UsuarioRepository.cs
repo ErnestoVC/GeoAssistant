@@ -3,6 +3,7 @@ using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using FAS.Entity;
 using FAS.Repository.Context;
+using System.Collections;
 
 namespace FAS.Repository.Implementation
 {
@@ -28,6 +29,21 @@ namespace FAS.Repository.Implementation
                 return false;
             }
             return true;
+        }
+
+        public IEnumerable fetchUsuariobyUsername(string username)
+        {
+            var result = new List<Usuarios>();
+            try
+            {
+                result = context.Usuarios.Where(m=>m.usuario.Contains(username)).ToList();
+            }
+            catch (System.Exception)
+            {
+                
+                throw;
+            }
+            return result;
         }
 
         public Usuarios Get(int id)

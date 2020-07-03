@@ -22,6 +22,11 @@ namespace  FAS.Service.Implementacion
             return clRepos.Delete(id);
         }
 
+        public IEnumerable fetchUsuariobyUsername(string username)
+        {
+            return clRepos.fetchUsuariobyUsername(username);
+        }
+
         public Usuarios Get(int id)
         {
             return clRepos.Get(id);

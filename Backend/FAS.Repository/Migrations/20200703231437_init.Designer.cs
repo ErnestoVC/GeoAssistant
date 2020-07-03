@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FAS.Repository.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200627044245_init")]
+    [Migration("20200703231437_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -28,6 +28,8 @@ namespace FAS.Repository.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<DateTime>("fecha");
+
+                    b.Property<double>("horas");
 
                     b.Property<double>("posX");
 
@@ -213,6 +215,8 @@ namespace FAS.Repository.Migrations
                     b.Property<int>("IdVehiculo");
 
                     b.Property<string>("TipoCarga");
+
+                    b.Property<double>("Totalhoras");
 
                     b.Property<int?>("VehiculoId");
 

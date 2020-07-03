@@ -7,6 +7,7 @@ namespace FAS.Entity
         public DateTime fecha {get;set;}
         public double posX {get;set;}
         public double posY {get;set;}
+        public double horas {get;set;}
         
     }
 }

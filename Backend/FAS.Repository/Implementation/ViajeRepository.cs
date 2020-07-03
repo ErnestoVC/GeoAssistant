@@ -63,7 +63,8 @@ namespace FAS.Repository.Implementation
                 AsistenciaId = c.IdAsistencia,
                 Fecha = c.Asistencia.fecha,
                 posX = c.Asistencia.posX,
-                posY = c.Asistencia.posY
+                posY = c.Asistencia.posY,
+                horas = c.Asistencia.horas
             });
         }
 

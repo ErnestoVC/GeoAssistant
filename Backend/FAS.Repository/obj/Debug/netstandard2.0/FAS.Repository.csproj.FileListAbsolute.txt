@@ -16,9 +16,9 @@ C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Repository\bin\Debug\nets
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Repository\bin\Debug\netstandard2.0\FAS.Entity.dll
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Repository\bin\Debug\netstandard2.0\FAS.Entity.pdb
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.csprojAssemblyReference.cache
-C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.csproj.CoreCompileInputs.cache
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.AssemblyInfoInputs.cache
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.AssemblyInfo.cs
+C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.csproj.CoreCompileInputs.cache
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.csproj.CopyComplete
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.dll
 C:\Users\netit\Documents\GitHub\FundaFinal\Backend\FAS.Repository\obj\Debug\netstandard2.0\FAS.Repository.pdb
